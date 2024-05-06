@@ -1,0 +1,177 @@
+05-03 15:04:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'win32'
+05-03 15:04:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.11.5 (main, Jan 19 2024, 08:13:45) [MSC v.1936 64 bit (AMD64)]'
+05-03 15:04:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 8.0.1
+05-03 15:04:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 3.0.2
+05-03 15:04:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x000001D982C18820>
+05-03 15:04:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with U2 as a reference
+05-03 15:04:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
+05-03 15:04:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'U2'
+Located on: ['A']
+With filenames: ['MAX485.kicad_sch']
+With sheet_id:['A']
+05-03 15:04:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
+[('U7', ['W']), ('U6', ['V']), ('U5', ['U']), ('U4', ['Z']), ('U3', ['B']), ('U2', ['A'])]
+05-03 15:04:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
+05-03 15:04:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 462:constructing a list of sheets suitable for replication on level:'A', file:'MAX485.kicad_sch'
+05-03 15:04:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 499:suitable sheets are:[['B'], ['U'], ['V'], ['W'], ['Z']]
+05-03 15:04:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1503:Level selected: ['A']
+05-03 15:04:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1327:Filtering list of tracks
+05-03 15:04:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(1332, 77)
+05-03 15:04:35 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(893, 77)
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 462:constructing a list of sheets suitable for replication on level:'A', file:'MAX485.kicad_sch'
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 499:suitable sheets are:[['B'], ['U'], ['V'], ['W'], ['Z']]
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 240:Replicating layout
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 278:Starting replication of sheets: [['B'], ['U'], ['V'], ['W'], ['Z']]
+on level: ['A']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
+05-03 15:04:36 root 332:updating GUI message: 'Preparing for replication'
+05-03 15:04:36 root 337:updating GUI with: 0
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 348:Getting the list of source footprints
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 358:Getting the list of all the remaining footprints
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 365:Getting source tracks
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1327:Filtering list of tracks
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 369:Getting source zones
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 373:Getting source text items
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 377:Getting source drawing items
+05-03 15:04:36 root 332:updating GUI message: 'Replicating footprints'
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 844:Replicating footprints
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['B']
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['U']
+05-03 15:04:36 root 337:updating GUI with: 40
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['V']
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['W']
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['Z']
+05-03 15:04:36 root 332:updating GUI message: 'Replicating tracks'
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1005:Replicating tracks
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['B']
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A+'] and dst net: ['', 'B+'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A-'] and dst net: ['', 'B-'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A+'] and dst net: ['', 'B+'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A-'] and dst net: ['', 'B-'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A-'] and dst net: ['', 'B-'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A+'] and dst net: ['', 'B+'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['B'] :[('/A-', '/B-'), ('Net-(U2-RO)', 'Net-(U3-RO)'), ('/RO_A', '/RO_B'), ('Net-(R2-Pad2)', 'Net-(R11-Pad2)'), ('Net-(U2-DI)', 'Net-(U3-DI)'), ('GND', 'GND'), ('unconnected-(R6-Pad1)', 'unconnected-(R15-Pad1)'), ('/A+', '/B+'), ('+5V', '+5V'), ('Net-(U2-DE)', 'Net-(U3-DE)'), ('Net-(U2-~{RE})', 'Net-(U3-~{RE})')]
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['U']
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A+'] and dst net: ['', 'U+'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A-'] and dst net: ['', 'U-'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A+'] and dst net: ['', 'U+'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A-'] and dst net: ['', 'U-'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A-'] and dst net: ['', 'U-'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A+'] and dst net: ['', 'U+'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['U'] :[('/A+', '/U+'), ('/A-', '/U-'), ('unconnected-(R6-Pad1)', 'unconnected-(R33-Pad1)'), ('Net-(U2-RO)', 'Net-(U5-RO)'), ('Net-(R2-Pad2)', 'Net-(R29-Pad2)'), ('/RO_A', '/RO_U'), ('Net-(U2-~{RE})', 'Net-(U5-~{RE})'), ('GND', 'GND'), ('+5V', '+5V'), ('Net-(U2-DE)', 'Net-(U5-DE)'), ('Net-(U2-DI)', 'Net-(U5-DI)')]
+05-03 15:04:36 root 337:updating GUI with: 40
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['V']
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A+'] and dst net: ['', 'V+'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A-'] and dst net: ['', 'V-'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A+'] and dst net: ['', 'V+'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A-'] and dst net: ['', 'V-'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A-'] and dst net: ['', 'V-'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A+'] and dst net: ['', 'V+'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['V'] :[('Net-(R2-Pad2)', 'Net-(R38-Pad2)'), ('Net-(U2-DI)', 'Net-(U6-DI)'), ('Net-(U2-RO)', 'Net-(U6-RO)'), ('/RO_A', '/RO_V'), ('Net-(U2-DE)', 'Net-(U6-DE)'), ('unconnected-(R6-Pad1)', 'unconnected-(R42-Pad1)'), ('GND', 'GND'), ('Net-(U2-~{RE})', 'Net-(U6-~{RE})'), ('+5V', '+5V'), ('/A-', '/V-'), ('/A+', '/V+')]
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['W']
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A+'] and dst net: ['', 'W+'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A-'] and dst net: ['', 'W-'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A+'] and dst net: ['', 'W+'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A-'] and dst net: ['', 'W-'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A-'] and dst net: ['', 'W-'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A+'] and dst net: ['', 'W+'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['W'] :[('/RO_A', '/RO_W'), ('Net-(U2-DE)', 'Net-(U7-DE)'), ('Net-(U2-DI)', 'Net-(U7-DI)'), ('Net-(U2-~{RE})', 'Net-(U7-~{RE})'), ('/A-', '/W-'), ('GND', 'GND'), ('unconnected-(R6-Pad1)', 'unconnected-(R51-Pad1)'), ('Net-(R2-Pad2)', 'Net-(R47-Pad2)'), ('/A+', '/W+'), ('+5V', '+5V'), ('Net-(U2-RO)', 'Net-(U7-RO)')]
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['Z']
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A+'] and dst net: ['', 'Z+'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A-'] and dst net: ['', 'Z-'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A+'] and dst net: ['', 'Z+'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A-'] and dst net: ['', 'Z-'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A-'] and dst net: ['', 'Z-'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A+'] and dst net: ['', 'Z+'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['Z'] :[('Net-(U2-RO)', 'Net-(U4-RO)'), ('Net-(U2-~{RE})', 'Net-(U4-~{RE})'), ('/RO_A', '/RO_Z'), ('/A-', '/Z-'), ('/A+', '/Z+'), ('Net-(U2-DI)', 'Net-(U4-DI)'), ('GND', 'GND'), ('+5V', '+5V'), ('Net-(R2-Pad2)', 'Net-(R20-Pad2)'), ('Net-(U2-DE)', 'Net-(U4-DE)'), ('unconnected-(R6-Pad1)', 'unconnected-(R24-Pad1)')]
+05-03 15:04:36 root 332:updating GUI message: 'Replicating zones'
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1075:Replicating zones
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['B']
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A+'] and dst net: ['', 'B+'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A-'] and dst net: ['', 'B-'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A+'] and dst net: ['', 'B+'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A-'] and dst net: ['', 'B-'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A-'] and dst net: ['', 'B-'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A+'] and dst net: ['', 'B+'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['B'] :[('/A-', '/B-'), ('Net-(U2-RO)', 'Net-(U3-RO)'), ('/RO_A', '/RO_B'), ('Net-(R2-Pad2)', 'Net-(R11-Pad2)'), ('Net-(U2-DI)', 'Net-(U3-DI)'), ('GND', 'GND'), ('unconnected-(R6-Pad1)', 'unconnected-(R15-Pad1)'), ('/A+', '/B+'), ('+5V', '+5V'), ('Net-(U2-DE)', 'Net-(U3-DE)'), ('Net-(U2-~{RE})', 'Net-(U3-~{RE})')]
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['U']
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A+'] and dst net: ['', 'U+'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A-'] and dst net: ['', 'U-'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A+'] and dst net: ['', 'U+'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A-'] and dst net: ['', 'U-'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A-'] and dst net: ['', 'U-'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A+'] and dst net: ['', 'U+'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['U'] :[('/A+', '/U+'), ('/A-', '/U-'), ('unconnected-(R6-Pad1)', 'unconnected-(R33-Pad1)'), ('Net-(U2-RO)', 'Net-(U5-RO)'), ('Net-(R2-Pad2)', 'Net-(R29-Pad2)'), ('/RO_A', '/RO_U'), ('Net-(U2-~{RE})', 'Net-(U5-~{RE})'), ('GND', 'GND'), ('+5V', '+5V'), ('Net-(U2-DE)', 'Net-(U5-DE)'), ('Net-(U2-DI)', 'Net-(U5-DI)')]
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['V']
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A+'] and dst net: ['', 'V+'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A-'] and dst net: ['', 'V-'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A+'] and dst net: ['', 'V+'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A-'] and dst net: ['', 'V-'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A-'] and dst net: ['', 'V-'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A+'] and dst net: ['', 'V+'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['V'] :[('Net-(R2-Pad2)', 'Net-(R38-Pad2)'), ('Net-(U2-DI)', 'Net-(U6-DI)'), ('Net-(U2-RO)', 'Net-(U6-RO)'), ('/RO_A', '/RO_V'), ('Net-(U2-DE)', 'Net-(U6-DE)'), ('unconnected-(R6-Pad1)', 'unconnected-(R42-Pad1)'), ('GND', 'GND'), ('Net-(U2-~{RE})', 'Net-(U6-~{RE})'), ('+5V', '+5V'), ('/A-', '/V-'), ('/A+', '/V+')]
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['W']
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A+'] and dst net: ['', 'W+'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A-'] and dst net: ['', 'W-'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A+'] and dst net: ['', 'W+'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A-'] and dst net: ['', 'W-'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A-'] and dst net: ['', 'W-'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A+'] and dst net: ['', 'W+'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['W'] :[('/RO_A', '/RO_W'), ('Net-(U2-DE)', 'Net-(U7-DE)'), ('Net-(U2-DI)', 'Net-(U7-DI)'), ('Net-(U2-~{RE})', 'Net-(U7-~{RE})'), ('/A-', '/W-'), ('GND', 'GND'), ('unconnected-(R6-Pad1)', 'unconnected-(R51-Pad1)'), ('Net-(R2-Pad2)', 'Net-(R47-Pad2)'), ('/A+', '/W+'), ('+5V', '+5V'), ('Net-(U2-RO)', 'Net-(U7-RO)')]
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['Z']
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A+'] and dst net: ['', 'Z+'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A-'] and dst net: ['', 'Z-'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A+'] and dst net: ['', 'Z+'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A-'] and dst net: ['', 'Z-'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A-'] and dst net: ['', 'Z-'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 788:Significant difference between src net: ['', 'A+'] and dst net: ['', 'Z+'], with src_net_depth=2, dst_net_depth=2, src_fp_depth=1, dst_fp_depth=1, match level 0.75
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['Z'] :[('Net-(U2-RO)', 'Net-(U4-RO)'), ('Net-(U2-~{RE})', 'Net-(U4-~{RE})'), ('/RO_A', '/RO_Z'), ('/A-', '/Z-'), ('/A+', '/Z+'), ('Net-(U2-DI)', 'Net-(U4-DI)'), ('GND', 'GND'), ('+5V', '+5V'), ('Net-(R2-Pad2)', 'Net-(R20-Pad2)'), ('Net-(U2-DE)', 'Net-(U4-DE)'), ('unconnected-(R6-Pad1)', 'unconnected-(R24-Pad1)')]
+05-03 15:04:36 root 332:updating GUI message: 'Replicating text'
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1164:Replicating text
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['B']
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['U']
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['V']
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['W']
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['Z']
+05-03 15:04:36 root 332:updating GUI message: 'Replicating drawings'
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1215:Replicating drawings
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['B']
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['U']
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['V']
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['W']
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['Z']
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 256:Replication complete
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 259:Letting the user know there are some issues with replicated design
+05-03 15:04:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 263:Looks like the design has an exotic connectivity that the plugin might not handle properly
+ Make sure that you check the connectivity around:
+Footprint R27, pad 1
+Footprint R35, pad 1
+Footprint R25, pad 1
+Footprint U5, pad 7
+Footprint R36, pad 1
+Footprint R18, pad 1
+Footprint R43, pad 2
+Footprint R17, pad 1
+Footprint U7, pad 7
+Footprint R43, pad 1
+Footprint R44, pad 1
+Footprint U5, pad 6
+Footprint R52, pad 2
+Footprint R16, pad 2
+Footprint U3, pad 7
+Footprint U4, pad 7
+Footprint R53, pad 1
+Footprint U6, pad 7
+Footprint R45, pad 1
+Footprint R52, pad 1
+Footprint U7, pad 6
+Footprint R16, pad 1
+Footprint R34, pad 2
+Footprint R54, pad 1
+Footprint U3, pad 6
+Footprint U4, pad 6
+Footprint U6, pad 6
+Footprint R34, pad 1
+Footprint R25, pad 2
+Footprint R26, pad 1
+
