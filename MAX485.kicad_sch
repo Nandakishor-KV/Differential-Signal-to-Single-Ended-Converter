@@ -1936,7 +1936,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 153.67 77.47 90)
+		(at 153.67 77.47 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1961,7 +1961,7 @@
 			)
 		)
 		(property "Footprint" "inqbe:CP_Radial_D5.0mm_P2.50mm"
-			(at 157.48 76.5048 0)
+			(at 149.86 78.4352 0)
 			(effects
 				(font
 					(size 1.27 1.27)

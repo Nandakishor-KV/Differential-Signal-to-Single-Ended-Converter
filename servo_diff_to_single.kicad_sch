@@ -2320,12 +2320,6 @@
 		(uuid "4b2a56b4-28fe-40f4-a9f8-7cca8b250eb1")
 	)
 	(junction
-		(at 43.18 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d5b041e-ffc2-4e9e-af41-c5765a335d94")
-	)
-	(junction
 		(at 68.58 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2336,6 +2330,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d01780d4-4fa5-472b-a30b-947e12b565c6")
+	)
+	(junction
+		(at 43.18 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e085981b-ef0b-46e9-a03e-a52db49d08ce")
 	)
 	(junction
 		(at 50.8 116.84)
@@ -2484,16 +2484,6 @@
 			(type default)
 		)
 		(uuid "2570cfd7-7af1-491e-b786-ac08880c1bc8")
-	)
-	(wire
-		(pts
-			(xy 43.18 116.84) (xy 50.8 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fd79698-84e9-4e90-a527-fd42fecfa8a5")
 	)
 	(wire
 		(pts
@@ -2914,6 +2904,16 @@
 			(type default)
 		)
 		(uuid "c5182ea2-7a04-43ed-9bfe-b55b33803b94")
+	)
+	(wire
+		(pts
+			(xy 43.18 116.84) (xy 50.8 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c569e0f2-5510-4611-87eb-9c01a5bead50")
 	)
 	(wire
 		(pts
@@ -3697,7 +3697,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 43.18 113.03 180)
+		(at 43.18 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3705,7 +3705,7 @@
 		(dnp no)
 		(uuid "1f1cf1fc-291c-4376-983f-2089e4b98baa")
 		(property "Reference" "C1"
-			(at 46.228 111.76 0)
+			(at 40.132 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3714,7 +3714,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 46.482 114.3 0)
+			(at 39.878 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3723,7 +3723,7 @@
 			)
 		)
 		(property "Footprint" "inqbe:CP_Radial_D6.3mm_P2.50mm"
-			(at 42.2148 109.22 0)
+			(at 44.1452 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4514,7 +4514,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 68.58 113.03 180)
+		(at 68.58 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4522,7 +4522,7 @@
 		(dnp no)
 		(uuid "f835420a-8b27-4547-bf67-bd904760b8e3")
 		(property "Reference" "C2"
-			(at 70.104 110.744 0)
+			(at 67.056 115.316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4531,7 +4531,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 69.596 115.316 0)
+			(at 67.564 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4540,7 +4540,7 @@
 			)
 		)
 		(property "Footprint" "inqbe:CP_Radial_D6.3mm_P2.50mm"
-			(at 67.6148 109.22 0)
+			(at 69.5452 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
